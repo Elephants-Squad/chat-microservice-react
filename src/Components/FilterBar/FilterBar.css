@@ -1,5 +1,4 @@
 .container__filter__bar {
-    position: fixed;
     left: 0;
     height: 100%;
     width: 20%;
@@ -8,7 +7,6 @@
     flex-direction: column;
     gap: 50px;
     padding: 3rem 0;
-    border-right: 2px solid var(--purple-main-color);
 }
 
 .container__categories {
@@ -59,11 +57,12 @@
     border-radius: 20px;
     font-size: 20px;
     padding: 1rem;
-    border: 2px solid var(--light-grey-color);
+    border: 2px solid var(--light-purple-color);
+    outline: none;
 }
 
 .count__input input::placeholder {
-    border: 2px solid var(--blue-main-color);
+    border: 2px solid var(--light-purple-color);
 }
 
 .switch {
@@ -106,11 +105,11 @@
 }
 
 input:checked + .slider {
-    background-color: var(--blue-main-color);
+    background-color: var(--light-purple-color);
 }
 
 input:focus + .slider {
-    box-shadow: 0 0 1px var(--blue-main-color);
+    box-shadow: 0 0 1px var(--light-purple-color);
 }
 
 input:checked + .slider:before {
