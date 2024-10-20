@@ -1,0 +1,20 @@
+.container__choose__goods {
+    display: flex;
+    justify-content: end;
+}
+
+.container__filter__bar {
+    display: flex;
+    align-items: start;
+    justify-content: start;
+}
+
+.container__cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 3rem;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 15px;
+    width: 80%;
+    padding: 2rem;
+}
