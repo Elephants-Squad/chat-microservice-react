@@ -5,18 +5,16 @@
 @tailwind utilities;
 
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
 
     /* grey */
     --light-grey-color: #9D9D9D;
 
     /* purple */
     --purple-main-color: #512DA8;
-
-    /* blue */
-    --blue-main-color: #2196F3;
+    --light-purple-color: #5929b3;
 }
 
 *{
@@ -54,6 +52,14 @@ body {
 
 .ft24 {
     font-size: 24px;
+}
+
+.ft28 {
+    font-size: 28px;
+}
+
+.ft48 {
+    font-size: 48px;
 }
 
 .ftbold {
